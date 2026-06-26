@@ -1,0 +1,24 @@
+
+EJEMPLO 1:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Seguridad",
+    "descripcion": "Los vecinos reportan que en el parque central se observan luces dañadas y falta de vigilancia durante la noche, lo que genera preocupación en la comunidad."
+  }
+}
+
+EJEMPLO 2:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Transporte",
+    "descripcion": "Se informa que la señal de tránsito en la avenida principal está caída, causando confusión entre los conductores y riesgo de accidentes."
+  }
+}
+
+Ambos funcionan correctamente.

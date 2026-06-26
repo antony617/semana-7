@@ -1,0 +1,41 @@
+
+Este es el de POST y correctamente funciona como lo debido 
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+y asi aparece en la URL.
+
+
+
+
+Este es el de GET y funciona correctamente como lo debido
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+[{"id":1,"tipo":"Infraestructura","descripcion":"Daño en alumbrado público"}]
+
+y asi aparece en la URL.
+
+Confirmandome que si funciona el GET.
